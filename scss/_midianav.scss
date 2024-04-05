@@ -1,0 +1,1732 @@
+@media only screen and (max-width: 600px) {
+    #nav-header-section {
+        width: 100%;
+        height: fit-content;
+
+        .nav-header-continer {
+            display: flex;
+            padding: 13px;
+            width: 100%;
+            flex-direction: column-reverse;
+            margin: auto;
+            align-items: center;
+            justify-content: space-between;
+
+            .nav-header-left {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 14px 0;
+                margin: auto;
+
+            }
+
+            .fa-map {
+                display: none;
+            }
+
+            .fa-map-1 {
+                display: none;
+            }
+
+            .nav-header-mobile {
+                display: flex;
+                justify-content: flex-start;
+                gap: 6px;
+            }
+
+            .navbar-expand-lg {
+                max-width: fit-content;
+                margin: auto;
+            }
+        }
+    }
+
+    #clients-section2 .clints-container-body {
+        max-width: fit-content;
+        padding-top: 18px;
+    }
+
+    #home-section {
+        background-color: #fff;
+
+        .home-section-container {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .home-section-left {
+            display: flex;
+            justify-content: end;
+            padding: 11px;
+            margin: auto;
+        }
+    }
+
+    #home-section .home-section-left p {
+        font-size: 11px;
+        font-weight: 600;
+        padding-bottom: 4px;
+    }
+
+    #home-section .home-section-left button {
+        font-size: 9px;
+        width: 160px;
+        height: 41px;
+    }
+
+    #home-section .home-section-left .home-section-heading {
+        width: 100%;
+    }
+
+    .home-footer-container .footer-header {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        height: 120px;
+        justify-content: space-between;
+        background: #fff;
+        padding: 16px;
+    }
+
+    #Service {
+        gap: 0px;
+    }
+
+    #home-section .home-section-left .home-section-heading h1 {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 47px;
+
+    }
+
+    #home-section .home-section-left .home-section-chackbox {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    #home-section .home-section-left .home-section-chackbox .chack-box-1 svg {
+        width: 21px;
+    }
+
+    #home-section .home-section-left .home-section-chackbox label {
+        font-size: 10px;
+        line-height: 24px;
+    }
+
+    #Service2 .service-heading-container h1 {
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 43px;
+    }
+
+    #Service .service-card-container {
+        display: grid;
+        grid-template-columns: none;
+        padding: 24px;
+        gap: 17px;
+        margin: auto;
+    }
+
+    .service-header {
+        text-align: center;
+    }
+
+    .canada {
+        height: 50%;
+    }
+
+    #home-section .home-section-right {
+        height: 184%;
+    }
+
+    .Canadian-Horizon-left {
+        padding-top: 0;
+        width: 100%;
+    }
+
+    #Service2 .service-heading-container {
+        display: grid;
+        grid-template-columns: none;
+        padding: 53px;
+        max-width: fit-content;
+        gap: 8px;
+    }
+
+
+    #Service2 .service-heading-container p {
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Service2 {
+        gap: 0px;
+    }
+
+    #Service2 .service-header {
+        text-align: center;
+    }
+
+    .service-card-container {
+        display: grid;
+        grid-template-columns: none;
+        gap: 2px;
+    }
+
+
+
+    #Canadian-Horizon {
+        padding: 20px;
+        margin: auto;
+
+        .canadian-horizon-cntainer {
+            padding-top: 0px;
+            max-width: -moz-fit-content;
+            max-width: fit-content;
+            display: grid;
+            grid-template-columns: none;
+        }
+
+        .Canadian-Horizon-right-img {
+            width: 91%;
+            height: 45%;
+            position: absolute;
+            background: #023a51;
+            margin-left: 7px;
+        }
+
+        .Canadian-Horizon-left h1 {
+            font-size: 25px;
+            line-height: 41px;
+
+        }
+
+        .Canadian-Horizon-left p {
+            color: var(--Gray-Color-Base-Color, #59667D);
+            font-feature-settings: "clig" off, "liga" off;
+            font-family: "Public Sans";
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            padding-bottom: 30px;
+        }
+
+        .home-footer-container .footer-header {
+            padding: 14px;
+        }
+
+        .Canadian-Horizon-right-img1 {
+            position: absolute;
+            transform: translate(-22px, -20px);
+            padding-bottom: 90px;
+
+            .Canadian-Horizon-right-img1-1 {
+                width: 100%;
+            }
+        }
+
+        .Canadian-Horizon-left button {
+            font-size: 10px;
+            padding: 10px;
+        }
+
+    }
+
+    #Service2 {
+        padding: 0px 0px;
+    }
+
+    #clients-section2 {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+
+    #clients-section {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+
+    #clients-section h1 {
+        font-family: "Public Sans";
+        font-size: 32px;
+        color: #023a51;
+        text-align: center;
+    }
+
+    #clients-section2 button {
+        color: #fff;
+        padding: 9px;
+        gap: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #clients-section2 .clints-section-header2 .clints-section-right2 h1 {
+        font-family: "Public Sans";
+        width: 100%;
+        font-size: 64px;
+        color: var(--Primary-Color-Base-Color, #023A51);
+        font-family: "Public Sans";
+        font-size: 35px;
+        line-height: 56px;
+    }
+
+    #clients-section2 .clints-section-header2 p {
+        color: var(--Gray-Color-Base-Color, #59667D);
+        font-family: "Public Sans";
+        font-size: 18px;
+        margin-top: 0;
+        width: fit-content;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    #clients-section .clients1 {
+        display: grid;
+        grid-template-columns: none;
+        gap: 23px;
+    }
+
+    #clients-section2 .clints-section-header2 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #clients-section2 .clints-container2 {
+        padding: 0px 20px;
+    }
+
+    .clints-section-header3 .clints-container-header3 {
+        display: grid;
+        grid-template-columns: none;
+        gap: 30px;
+    }
+
+    #Contacts .contact-left .contact-left-heading h1 {
+        font-size: 38px;
+        line-height: 60px;
+    }
+
+    #Contacts .contact-container {
+        max-width: fit-content;
+        padding: 80px 0;
+        margin: auto;
+        display: grid;
+        grid-template-columns: none;
+        gap: 30px;
+
+        .contact-left {
+            margin: auto 0;
+            display: flex;
+            flex-direction: column;
+            padding: 25px;
+            align-items: flex-start;
+            gap: 45px;
+        }
+
+
+        .contact-from-chaackbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 11px;
+        }
+    }
+
+    #Contacts .contact-right .contact-from-right .contact-from-chaackbox label {
+        font-size: 12px;
+    }
+
+    #Contacts .contact-right .contact-from-right {
+        gap: 20px;
+    }
+
+    #Contacts .contact-left .contant-left-body {
+        width: 100%;
+    }
+
+    .home-footer-container .footer-body {
+        display: grid;
+        grid-template-columns: none;
+        padding: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .home-footer-container .footer-footer .footer-right {
+        display: flex;
+        gap: 8px;
+    }
+
+    .home-footer-container .footer-body .footer-body-right {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .home-footer-container .footer-body .footer-body-right .footer-nav nav a {
+        font-size: 12px;
+    }
+
+    .nav-bottom-border:hover {
+        border-bottom: none;
+    }
+
+    .my-sm-0 {
+        font-size: 8px;
+        width: 87px;
+    }
+
+    // about
+    #about_body {
+        max-width: fit-content !important;
+    }
+
+    .about-contant {
+        padding-bottom: 33px;
+    }
+
+    #about-header {
+        width: 100%;
+        height: 328px !important;
+    }
+    .date-booking {
+        width: 100%;
+        padding: 15px;
+     }
+     #about_body h1 {
+        font-size: 43px;
+    }
+    #about_body p {
+        font-size: 16px;
+    }
+
+    .contact-from-right1 {
+        padding: 6px 21px;
+    }
+
+    .contact-from-heading {
+        font-size: 12px !important;
+        line-height: 15px !important;
+    }
+
+    #contact-map .map-from {
+        position: static;
+        width: 100%;
+        /* position: absolute; */
+        display: grid;
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+
+    #about-header .about-heading-container {
+        padding: 57px;
+    }
+
+    #about-header .about-heading-container h1 {
+        font-size: 30px;
+        text-align: center;
+        line-height: 46px;
+
+    }
+
+    #about-header .about-heading-container p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #about-header .about-heading-container .about-header-button a {
+        font-size: 13px;
+    }
+
+    .about-rec {
+        width: 100%;
+        height: 318px;
+        padding-bottom: 118px;
+    
+    }
+
+    .about-body-container {
+        margin-top: -59px;
+    }
+
+    #about_body .about-body-container-contant {
+        display: grid;
+    }
+
+    #about_body .about-body-container-contant .contact-right {
+        width: fit-content;
+        padding: 5px 12px 14px 10px;
+    }
+
+    .canadian-horizon-cntainer {
+        padding-top: 0;
+        max-width: fit-content;
+    }
+
+    .canadian-horizon-cntainer {
+        width: fit-content;
+        grid-template-columns: none;
+        padding: 12px;
+    }
+
+    #Canadian-Horizon2 {
+        margin-bottom: 0px;
+    }
+
+    #Canadian-Horizon2 h1 {
+        width: fit-content;
+        font-size: 25px;
+        line-height: 44px;
+    }
+
+    #about-team .about-team-container .about-team-header h1 {
+        font-size: 43px;
+        line-height: 68px;
+    }
+
+    #about-footer {
+        margin-top: 0;
+    }
+
+    #about-footer .about-footer-container .about-footer-contant p {
+        text-align: center;
+    }
+
+    #about-footer .about-footer-container .about-footer-icne {
+        display: grid;
+        gap: 64px;
+    }
+
+    #about-team .about-team-container .about-team-card {
+        display: grid;
+        grid-template-columns: none;
+    }
+
+    #about-team .about-team-container .about-team-header p {
+        width: fit-content;
+    }
+
+    #about-team .about-team-container .about-team-header {
+        padding: 20px;
+    }
+
+    #about_body h1 {
+        margin-top: 0px;
+        /* margin-top: 80px; */
+    }
+
+    #about-team .about-team-container .about-team-header {
+        gap: 0;
+        margin-bottom: 0;
+        /* gap: 15px; */
+        /* margin-bottom: 40px; */
+    }
+
+    #about-team .about-team-container {
+        max-width: fit-content;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /* margin-top: 100px; */
+        /* margin-bottom: 30px; */
+    }
+
+    .about-body-para {
+        padding: 20px;
+    }
+
+    #Canadian-Horizon {
+        padding-top: 0px !important;
+    }
+
+    .Canadian-Horizon-left-container {
+        padding: 7px;
+        padding-top: 36px;
+    }
+
+    #Book_a_Consultation-body-contant .Book_a_Consultation-body-contant-container {
+        margin-top: 297px;
+        padding: 20px;
+    }
+
+    .Canadian-Horizon-right {
+        z-index: -2;
+        padding-top: 18px;
+        padding-bottom: 0px;
+    }
+
+    #Consultation-box .Consultation-box-container {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-footer-container .footer-footer {
+        font-family: "Public Sans";
+        font-size: 16px;
+        padding: 24px;
+        margin-bottom: 30px;
+    }
+
+
+    .home-footer-container .footer-body .footer-body-left {
+        color: var(--Gray-Color-Base-Color, #59667D);
+        display: inline-flex;
+        flex-direction: column;
+        gap: 31px;
+        font-family: "Public Sans";
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .home-footer-container .footer-header .footer-header-svg {
+        gap: 7px;
+    }
+
+    .home-footer-container .footer-header .footer-header-svg embed {
+        width: 40px;
+        height: 40px;
+    }
+
+    .home-footer-container .footer-footer {
+        font-size: 13px;
+        gap: 10px;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .home-footer-container .footer-body .footer-body-right .footer-body-right-nav {
+        gap: 5px;
+    }
+
+    .home-footer-container .footer-body .footer-body-left-footer {
+        display: grid;
+        grid-template-columns: none;
+        gap: 15px;
+    }
+
+    // blog
+
+    #Consultation-box .Consultation-box-container {
+        max-width: fit-content;
+    }
+
+    #service-header {
+        width: fit-content;
+        margin-bottom: 16px;
+    }
+
+    #service-header {
+        height: fit-content;
+    }
+
+    #service-header .service-container {
+        max-width: fit-content !important;
+        padding: 48px;
+    }
+
+    #service-header .service-container p {
+        font-size: 12px;
+    }
+
+    #service-header .service-container h1 {
+        font-size: 21px;
+        line-height: normal;
+    }
+
+    #service-card .service-container {
+        max-width: 100%;
+        grid-template-columns: none;
+    }
+
+    #service-card {
+        overflow: hidden;
+    }
+
+    #service-card .service-card1 p {
+        font-size: 15px;
+    }
+
+    .Book_a_Consultation-body-contant-container {
+        p {
+            font-size: 14px !important;
+            padding: 10px !important;
+        }
+    }
+
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width:977px) {
+
+    #nav-header-section {
+        width: 100%;
+        height: fit-content;
+
+        .nav-header-continer {
+            display: flex;
+            padding: 13px;
+            width: 100%;
+            margin: auto;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 13px;
+
+            .nav-header-mobile {
+                display: flex;
+                justify-content: flex-start;
+                gap: 6px;
+            }
+
+            .navbar-expand-lg {
+                max-width: fit-content;
+                margin: auto;
+            }
+        }
+    }
+
+    .nav-bottom-border:hover {
+        border-bottom: none;
+    }
+
+    #clients-section2 .clints-container-body {
+        max-width: fit-content;
+    }
+
+    #home-section {
+        background-color: #fff;
+
+        .home-section-container {
+            display: grid;
+            grid-template-columns: none;
+        }
+
+        .home-section-left {
+            display: flex;
+            justify-content: end;
+            padding: 20px;
+            padding-top: 95px;
+            margin: auto;
+        }
+    }
+
+    #Consultation-box .Consultation-box-container {
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+        gap: 6px;
+    }
+
+    #home-section .home-section-left .home-section-heading {
+        width: 100%;
+    }
+
+    #home-section .home-section-left .home-section-heading h1 {
+        color: var(--Primary-Color-Base-Color, #023A51);
+        font-feature-settings: "clig" off, "liga" off;
+        font-size: 41px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 67px;
+
+    }
+
+    #home-section .home-section-left .home-section-chackbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #home-section .home-section-left button {
+        font-size: 9px;
+        width: 156px;
+    }
+
+    .Canadian-Horizon-left h1 {
+        font-size: 33px;
+        line-height: 60px;
+    }
+
+    .Canadian-Horizon-left p {
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        padding-bottom: 30px;
+    }
+    #contact-map .map-from {
+        right: 0;
+    }
+
+    #Service .service-card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 24px;
+        gap: 17px;
+        margin: auto;
+
+    }
+
+    #service-header {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 0px;
+    }
+
+    #service-header .service-container {
+        max-width: 100% !important;
+        padding: 48px;
+    }
+
+    #service-header .service-container p {
+        font-size: 12px;
+    }
+
+
+    .service-header {
+        text-align: center;
+    }
+
+    // #service-header {
+    //     width: fit-content;
+    // }
+
+    #service-header .service-container {
+        max-width: fit-content !important;
+        padding: 48px;
+    }
+
+    #service-header .service-container p {
+        font-size: 12px;
+    }
+
+    #service-header .service-container h1 {
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    #service-card .service-container {
+        max-width: 100%;
+        grid-template-columns: none;
+    }
+
+    #service-card {
+        overflow: hidden;
+    }
+
+    #service-card .service-card1 p {
+        font-size: 15px;
+    }
+
+    .canada {
+        height: 50%;
+    }
+
+    #home-section .home-section-right {
+        height: 184%;
+    }
+
+    .Canadian-Horizon-left {
+        padding-top: 0;
+        width: 80%;
+    }
+
+    #Book_a_Consultation-body-contant .Book_a_Consultation-body-contant-container {
+        padding-top: 608px;
+    }
+
+    .contact-from-right1 {
+        button {
+            font-size: 11px !important;
+            padding: 14px 14px !important;
+        }
+    }
+
+    #Service2 .service-heading-container {
+        display: grid;
+        grid-template-columns: none;
+        padding: 53px;
+        max-width: fit-content;
+        gap: 37px;
+    }
+
+
+    #Service2 .service-heading-container p {
+        color: var(--Extra-Color-White, #FFF);
+        font-family: "Public Sans";
+        font-size: 18px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Service2 .service-header {
+        text-align: center;
+    }
+
+    .service-card-container {
+        display: grid;
+        grid-template-columns: none;
+        gap: 2px;
+    }
+
+    .Book_a_Consultation-body-contant-container {
+        p {
+            font-size: 18px !important;
+            padding: 10px !important;
+        }
+    }
+
+
+    #Canadian-Horizon {
+        padding: 20px;
+        margin: auto;
+
+        .canadian-horizon-cntainer {
+            padding-top: 0px;
+            max-width: -moz-fit-content;
+            max-width: fit-content;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .Canadian-Horizon-right-img {
+            width: 34%;
+            height: 22%;
+
+        }
+
+        .Canadian-Horizon-right-img1 {
+            position: absolute;
+            transform: translate(58px, -45px);
+            padding-bottom: 57px;
+
+            .Canadian-Horizon-right-img1-1 {
+                width: 69%;
+            }
+        }
+
+    }
+
+    #clients-section2 {
+        padding-top: 0;
+    }
+
+    #clients-section {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+
+    #clients-section h1 {
+        font-family: "Public Sans";
+        font-size: 32px;
+        color: #023a51;
+        text-align: center;
+    }
+
+    #clients-section2 button {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 10px;
+        width: 52%;
+    }
+
+
+
+    #clients-section2 .clints-section-header2 .clints-section-right2 h1 {
+        font-family: "Public Sans";
+        width: fit-content;
+        font-size: 64px;
+        color: var(--Primary-Color-Base-Color, #023A51);
+        font-family: "Public Sans";
+        font-size: 48px;
+        line-height: 68px;
+    }
+
+    #clients-section .clients1 {
+        gap: 30px;
+
+    }
+
+    #clients-section2 .clints-section-header2 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    #clients-section2 .clints-container2 {
+        display: flex;
+        width: 100%;
+        padding: 83px 14px;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(2, 58, 81, .0784313725);
+        align-items: center;
+        gap: 30px;
+        margin: auto;
+    }
+
+    .clints-section-header3 .clints-container-header3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+
+    }
+
+    #Contacts .contact-container {
+        max-width: fit-content;
+        padding: 80px 0;
+        margin: auto;
+        display: grid;
+        grid-template-columns: none;
+        gap: 30px;
+
+        .contact-left {
+            margin: auto 0;
+            display: flex;
+            flex-direction: column;
+            padding: 25px;
+            align-items: flex-start;
+            gap: 45px;
+        }
+    }
+
+    #Contacts .contact-right .contact-from-right {
+        width: 87%;
+        display: grid;
+        gap: 20px;
+    }
+
+    #Contacts .contact-left .contant-left-body {
+        width: 100%;
+    }
+
+    .home-footer-container .footer-body {
+        .home-footer-container .footer-body {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .home-footer-container .footer-body .footer-body-right {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 29px;
+    }
+
+
+
+
+    .home-footer-container .footer-body .footer-body-left {
+        color: var(--Gray-Color-Base-Color, #59667D);
+        display: inline-flex;
+        flex-direction: column;
+        gap: 40px;
+        font-family: "Public Sans";
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .home-footer-container .footer-body .footer-body-left-footer {
+        display: grid;
+        grid-template-columns: none;
+        gap: 56px;
+
+
+    }
+
+    .footer-header {
+        padding: 20px;
+    }
+
+    #Service .service-card-1 {
+        padding: 11px 40px;
+    }
+
+    #Service .service-card-1 p {
+        padding-bottom: 0;
+    }
+
+    #about_body {
+        max-width: fit-content;
+    }
+
+    #about-header {
+        width: -webkit-fill-available;
+        height: 502px;
+    }
+
+    #about-header .about-heading-container {
+        padding: 75px;
+    }
+
+    #about-header .about-heading-container h1 {
+        font-size: 28px;
+        text-align: center;
+        line-height: 60px;
+    }
+
+    #about-header .about-heading-container p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .about-rec {
+        width: 100%;
+    }
+
+    .about-body-container {
+        margin-top: -59px;
+    }
+
+    #about_body .about-body-container-contant .contact-right {
+        width: -webkit-fill-available;
+    }
+
+    #about_body .about-body-container-contant {
+        display: grid;
+    }
+
+    .canadian-horizon-cntainer {
+        padding-top: 0;
+        max-width: fit-content;
+    }
+
+    .canadian-horizon-cntainer {
+        width: fit-content;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #Canadian-Horizon2 h1 {
+        width: fit-content;
+        font-size: 25px;
+        line-height: 44px;
+    }
+
+    #about-team .about-team-container .about-team-header h1 {
+        font-size: 44px;
+        line-height: 68px;
+    }
+
+    #about-footer {
+        margin-top: 0;
+    }
+
+    #about-footer .about-footer-container .about-footer-contant p {
+        text-align: center;
+    }
+
+    #about-footer .about-footer-container .about-footer-icne {
+        display: grid;
+        gap: 64px;
+    }
+
+    #about-team .about-team-container .about-team-card {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #about-team .about-team-container .about-team-header p {
+        width: fit-content;
+    }
+
+    #about-team .about-team-container .about-team-header {
+        padding: 20px;
+    }
+
+    .about-body-para {
+        padding: 20px;
+    }
+
+    .Canadian-Horizon-left-container {
+        padding: 20px;
+    }
+
+    #contact-map {
+        margin-top: 628px;
+        position: relative;
+    }
+
+
+    .home-footer-container {
+        max-width: fit-content;
+        padding: 20px;
+        margin: auto;
+    }
+
+
+    .home-footer-container .footer-body .footer-body-left {
+        color: var(--Gray-Color-Base-Color, #59667D);
+        display: inline-flex;
+        flex-direction: column;
+        gap: 31px;
+        font-family: "Public Sans";
+        width: 100%;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .home-footer-container .footer-header .footer-header-svg {
+        gap: 7px;
+    }
+
+    .home-footer-container .footer-header .footer-header-svg embed {
+        width: 40px;
+        height: 40px;
+    }
+
+    .home-footer-container .footer-footer {
+        margin-top: 52px;
+        color: var(--Gray-Color-Base-Color, #59667D);
+        font-family: "Public Sans";
+        font-size: 16px;
+        display: flex;
+        padding-top: 8px;
+        margin-bottom: 0px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-footer-container .footer-footer .footer-right {
+        display: flex;
+        gap: 12px;
+    }
+
+    .home-footer-container .footer-body .footer-body-left-footer {
+        display: grid;
+        grid-template-columns: none;
+        gap: 15px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 978px) and (max-width:1200px) {
+    #nav-header-section {
+        width: 100%;
+        height: fit-content;
+
+        .nav-header-continer {
+            display: flex;
+            padding: 13px;
+            width: 100%;
+            margin: auto;
+            justify-content: space-between;
+            align-items: baseline;
+
+            .nav-header-left {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+
+            }
+
+            .nav-header-mobile {
+                display: flex;
+                justify-content: flex-start;
+                gap: 6px;
+            }
+
+            .navbar-expand-lg {
+                max-width: fit-content;
+                margin: auto;
+            }
+        }
+    }
+
+    // #nav-section ul {
+    //     gap: 16px;
+    // }
+
+    #clients-section2 .clints-container-body {
+        max-width: fit-content;
+    }
+
+    #home-section {
+        background-color: #fff;
+
+        .home-section-container {
+            display: grid;
+            grid-template-columns: none;
+        }
+
+        .home-section-left {
+            display: flex;
+            justify-content: end;
+            padding: 20px;
+            padding-top: 95px;
+            margin: auto;
+        }
+    }
+
+    #service-header {
+        width: 100%;
+    }
+
+    #service-header .service-container {
+        max-width: 100% !important;
+        padding: 48px;
+    }
+
+    #service-header .service-container p {
+        font-size: 12px;
+    }
+
+    #home-section .home-section-left .home-section-heading {
+        width: 100%;
+    }
+
+    #home-section .home-section-left .home-section-heading h1 {
+        color: var(--Primary-Color-Base-Color, #023A51);
+        font-feature-settings: "clig" off, "liga" off;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 67px;
+
+    }
+
+    #home-section .home-section-left .home-section-chackbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #Service .service-card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 24px;
+        gap: 17px;
+        margin: auto;
+
+    }
+
+    .service-header {
+        text-align: center;
+    }
+
+    .canada {
+        height: 50%;
+    }
+
+    #home-section .home-section-right {
+        height: 184%;
+    }
+
+    .Canadian-Horizon-left {
+        padding-top: 0;
+        width: 80%;
+    }
+
+    .Canadian-Horizon-right {
+        z-index: -2;
+        padding-top: 65px;
+    }
+
+    #Service2 .service-heading-container {
+        display: grid;
+        grid-template-columns: none;
+        padding: 53px;
+        max-width: fit-content;
+        gap: 37px;
+    }
+
+
+    #Service2 .service-heading-container p {
+        color: var(--Extra-Color-White, #FFF);
+        font-family: "Public Sans";
+        font-size: 18px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Service2 .service-header {
+        text-align: center;
+    }
+
+    .service-card-container {
+        display: grid;
+        gap: 2px;
+    }
+
+
+
+    #Canadian-Horizon {
+        padding: 20px;
+        margin: auto;
+
+        .canadian-horizon-cntainer {
+            padding-top: 100px;
+            max-width: fit-content;
+            display: grid;
+            grid-template-columns: none;
+            gap: 65px;
+        }
+
+        .Canadian-Horizon-right-img {
+            width: 91%;
+            height: 45%;
+            position: absolute;
+            background: #023a51;
+            margin-left: 7px;
+        }
+    }
+
+    .Canadian-Horizon-right-img1 {
+        position: absolute;
+        transform: translate(103px, -39px);
+        padding-bottom: 57px;
+
+        .Canadian-Horizon-right-img1-1 {
+            width: 83%;
+        }
+
+    }
+
+    .contact-from-heading {
+        p {
+            font-size: 9px !important;
+        }
+    }
+
+    #Consultation-box .Consultation-box-container {
+        width: 100% !important;
+    }
+
+    #clients-section {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+
+    #clients-section2 {
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+
+    #clients-section h1 {
+        font-family: "Public Sans";
+        font-size: 32px;
+        color: #023a51;
+        text-align: center;
+    }
+
+    #clients-section2 button {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 14px;
+        width: 60%;
+        border: none;
+        font-weight: 600;
+        background-color: #e22329;
+        padding: 14px;
+    }
+
+    #clients-section2 .clints-section-header2 .clints-section-right2 h1 {
+        font-family: "Public Sans";
+        width: 100%;
+        font-size: 64px;
+        color: var(--Primary-Color-Base-Color, #023A51);
+        font-family: "Public Sans";
+        font-size: 48px;
+        line-height: 68px;
+    }
+
+    #clients-section .clients1 {
+        display: grid;
+        grid-template-columns: none;
+        gap: 24px;
+    }
+
+    #clients-section2 .clints-section-header2 {
+        display: grid;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #clients-section2 .clints-container2 {
+        display: flex;
+        width: 100%;
+        padding: 83px 14px;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(2, 58, 81, .0784313725);
+        align-items: center;
+        gap: 30px;
+        margin: auto;
+    }
+
+    .clints-section-header3 .clints-container-header3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+
+    }
+
+    #Contacts .contact-container {
+        max-width: fit-content;
+        padding: 80px 0;
+        margin: auto;
+        display: grid;
+        grid-template-columns: none;
+        gap: 30px;
+
+        .contact-left {
+            margin: auto 0;
+            display: flex;
+            flex-direction: column;
+            padding: 25px;
+            align-items: flex-start;
+            gap: 45px;
+        }
+    }
+
+    #Contacts .contact-right .contact-from-right {
+        width: 87%;
+        display: grid;
+        gap: 20px;
+    }
+
+    #Contacts .contact-left .contant-left-body {
+        width: 100%;
+    }
+
+    .home-footer-container .footer-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        margin-top: 11px;
+        gap: 32px;
+        margin-bottom: 20px;
+    }
+
+    .home-footer-container .footer-body .footer-body-right {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    // #nav-section ul {
+    //     #nav-section ul {
+    //         gap: 17px;
+    //     }
+    // }
+
+    .home-footer-container .footer-footer {
+        font-family: "Public Sans";
+        font-size: 16px;
+        padding: 24px;
+        margin-bottom: 30px;
+    }
+
+
+    .home-footer-container .footer-body .footer-body-left {
+        color: var(--Gray-Color-Base-Color, #59667D);
+        display: inline-flex;
+        flex-direction: column;
+        gap: 40px;
+        font-family: "Public Sans";
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .home-footer-container .footer-footer {
+        margin-top: 52px;
+        color: var(--Gray-Color-Base-Color, #59667D);
+        font-family: "Public Sans";
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .home-footer-container .footer-body .footer-body-left-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 56px;
+
+
+    }
+
+    .home-footer-container {
+        width: fit-content;
+    }
+
+    .footer-header {
+        padding: 20px;
+    }
+
+
+    #about_body {
+        max-width: 100%;
+    }
+
+    #about-header {
+        width: 100%;
+        height: 502px;
+    }
+
+    #about-header .about-heading-container {
+        padding: 75px;
+    }
+
+    #about-header .about-heading-container h1 {
+        font-size: 28px;
+        text-align: center;
+        line-height: 60px;
+    }
+
+    #about-header .about-heading-container p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .about-rec {
+        width: 100%;
+    }
+
+    .about-body-container {
+        margin-top: -59px;
+    }
+
+    .canadian-horizon-cntainer {
+        padding-top: 0;
+        max-width: fit-content;
+    }
+
+    .canadian-horizon-cntainer {
+        width: fit-content;
+    }
+
+    #Canadian-Horizon2 h1 {
+        width: fit-content;
+        font-size: 25px;
+        line-height: 44px;
+    }
+
+    #about-team .about-team-container .about-team-header h1 {
+        font-size: 44px;
+        line-height: 68px;
+    }
+
+    #about-footer {
+        margin-top: 0;
+    }
+
+    #about-footer .about-footer-container .about-footer-contant p {
+        text-align: center;
+    }
+
+    #about-footer .about-footer-container .about-footer-icne {
+        gap: 64px;
+    }
+
+    #about-team .about-team-container .about-team-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #about-team .about-team-container .about-team-header p {
+        width: fit-content;
+    }
+
+    #about-team .about-team-container .about-team-header {
+        padding: 20px;
+    }
+
+    .about-body-para {
+        padding: 20px;
+    }
+
+    .Canadian-Horizon-left-container {
+        padding: 20px;
+    }
+
+    .home-footer-container .footer-footer {
+        font-family: "Public Sans";
+        font-size: 16px;
+        padding: 24px;
+        margin-bottom: 30px;
+    }
+
+
+    .home-footer-container .footer-body .footer-body-left {
+        color: var(--Gray-Color-Base-Color, #59667D);
+        display: inline-flex;
+        flex-direction: column;
+        gap: 31px;
+        font-family: "Public Sans";
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .home-footer-container .footer-header .footer-header-svg {
+        gap: 7px;
+    }
+
+    .home-footer-container .footer-header .footer-header-svg embed {
+        width: 40px;
+        height: 40px;
+    }
+
+    .home-footer-container .footer-footer {
+        margin-top: 52px;
+        color: var(--Gray-Color-Base-Color, #59667D);
+        font-family: "Public Sans";
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width:1400px) {
+    #about-header {
+        width: 100%;
+    }
+
+    #service-header .service-container {
+        max-width: 100%;
+    }
+
+    #service-header {
+        width: fit-content;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    .from_serch {
+        display: none;
+    }
+}

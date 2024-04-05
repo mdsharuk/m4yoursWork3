@@ -1,0 +1,106 @@
+#service-header {
+    background-color: #023a51;
+    width: 1519px;
+    height: 386px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 70px;
+
+    .service-container {
+        display: flex;
+        justify-content: center;
+        max-width: 1170px;
+        align-items: center;
+        padding: 150px;
+        margin: auto;
+
+        h1 {
+            color: var(--Extra-Color-White, #FFF);
+            font-family: "Public Sans";
+            font-size: 64px;
+            line-height: 84px;
+        }
+
+        p {
+            color: var(--Extra-Color-White, #FFF);
+            text-align: center;
+            font-family: "Public Sans";
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 30px;
+
+        }
+
+        .about-header-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+
+            a {
+                color: var(--Extra-Color-White, #FFF);
+                font-family: "Public Sans";
+                font-size: 16px;
+                line-height: 24px;
+                text-decoration: none;
+            }
+
+            i {
+                color: #FFF;
+            }
+        }
+    }
+}
+
+#service-card {
+    background-color: #FFFFFF;
+    margin-bottom: 100px;
+
+    .service-container {
+        max-width: 1170px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .service-card1 {
+        display: inline-flex;
+        background-color: #023A5114;
+        flex-direction: column;
+        padding: 30px;
+        align-items: flex-start;
+        gap: 30px;
+
+        h4 {
+            color: var(--Primary-Color-Base-Color, #023A51);
+            font-family: "Public Sans";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 44px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: var(--Gray-Color-Base-Color, #59667D);
+            font-family: "Public Sans";
+            font-size: 16px;
+            align-self: stretch;
+            line-height: 24px;
+            margin-bottom: 12px;
+        }
+
+        button {
+            color: #fff;
+            font-family: Poppins;
+            font-size: 14px;
+            border: none;
+            font-weight: 600;
+            background-color: #e22329;
+            padding: 14px;
+            // margin: auto;
+        }
+    }
+}

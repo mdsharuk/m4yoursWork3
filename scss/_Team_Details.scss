@@ -1,0 +1,59 @@
+#Team_Details {
+    background-color: #ffff;
+
+    .team-details-container {
+        max-width: 1170px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+
+        h2 {
+            color: var(--Primary-Color-Base-Color, #023A51);
+            font-family: "Public Sans";
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 52px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: var(--Primary-Color-Base-Color, #023A51);
+            font-family: "Public Sans";
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 30px;
+            margin-bottom: 16px;
+        }
+
+        h4 {
+            color: var(--Gray-Color-Base-Color, #59667D);
+            font-family: "Public Sans";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            color: var(--Gray-Color-Base-Color, #59667D);
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: "Public Sans";
+            font-size: 18px;
+            font-style: normal;
+            width: 570px;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 60px;
+        }
+
+        .p-border {
+            width: 570px;
+            height: 1px;
+            background: #E3E6EE;
+            margin-bottom: 60px;
+        }
+    }
+}

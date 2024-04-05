@@ -1,0 +1,273 @@
+#Terms {
+    background: var(--primary-opacity-8, rgba(2, 58, 81, 0.08));
+    height: 362px;
+
+    .Terms_heading-container {
+        max-width: 1170px;
+        margin: auto;
+
+        .about-contant {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 86px 0;
+            gap: 20px;
+
+            h1 {
+                color: var(--Primary-Color-Base-Color, #023A51);
+                font-family: "Public Sans";
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 84px;
+
+            }
+
+            p {
+                color: var(--Primary-Color-Base-Color, #023A51);
+                font-family: "Public Sans";
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 24px;
+            }
+
+            .about-header-button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 12px;
+
+                a {
+                    color: var(--Primary-Color-Base-Color, #023A51);
+                    font-family: "Public Sans";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-decoration: none;
+                }
+
+            }
+
+        }
+
+    }
+
+
+}
+
+#team_body_contant {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+
+    .team_nav_header_continer {
+        max-width: 1170px;
+        margin: auto;
+    }
+
+    .team_body_contant_left_nav {
+        position: sticky;
+        height: fit-content;
+        top: 100px;
+    }
+
+    .team_body_contant_left {
+        margin-top: 80px;
+        display: flex;
+        align-items: flex-start;
+        gap: 151px;
+        margin-bottom: 80px;
+
+    }
+
+    nav {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        width: 166px;
+        height: 174px;
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--Primary-Color-Base-Color, #023A51);
+            font-family: "Public Sans";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+
+        a:hover {
+            color: #E22329;
+            border-bottom: 1px solid #E22329;
+        }
+
+    }
+
+    #ourservice {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        width: 870px;
+
+        h1 {
+            color: var(--Primary-Color-Base-Color, #023A51);
+            font-family: "Public Sans";
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 52px;
+        }
+
+        p {
+            color: var(--Gray-Color-Base-Color, #59667D);
+            font-family: "Public Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+
+    .border {
+        width: 870px;
+        height: 1px;
+        background: #E3E6EE;
+    }
+
+    #Property_rights {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        width: 870px;
+        padding-top: 30px;
+
+        h1 {
+            color: var(--Primary-Color-Base-Color, #023A51);
+            font-family: "Public Sans";
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 52px;
+        }
+
+        p {
+            color: var(--Gray-Color-Base-Color, #59667D);
+            font-family: "Public Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+
+    .border {
+        width: 870px;
+        height: 1px;
+        background: #E3E6EE;
+    }
+
+    #Prohibited_activities {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        width: 870px;
+        padding-top: 30px;
+
+        h1 {
+            color: var(--Primary-Color-Base-Color, #023A51);
+            font-family: "Public Sans";
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 52px;
+        }
+
+        p {
+            color: var(--Gray-Color-Base-Color, #59667D);
+            font-family: "Public Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+
+    .border {
+        width: 870px;
+        height: 1px;
+        background: #E3E6EE;
+    }
+
+    #Services_management{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        width: 870px;
+        padding-top: 30px;
+
+        h1 {
+            color: var(--Primary-Color-Base-Color, #023A51);
+            font-family: "Public Sans";
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 52px;
+        }
+
+        p {
+            color: var(--Gray-Color-Base-Color, #59667D);
+            font-family: "Public Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+
+    .border {
+        width: 870px;
+        height: 1px;
+        background: #E3E6EE;
+    }
+    #Contact_informationt{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        width: 870px;
+        padding-top: 30px;
+
+        h1 {
+            color: var(--Primary-Color-Base-Color, #023A51);
+            font-family: "Public Sans";
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 52px;
+        }
+
+        p {
+            color: var(--Gray-Color-Base-Color, #59667D);
+            font-family: "Public Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+
+    .border {
+        width: 870px;
+        height: 1px;
+        background: #E3E6EE;
+    }
+
+}

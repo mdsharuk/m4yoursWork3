@@ -1,0 +1,138 @@
+#about_body {
+    .about-body-container-contant {
+
+        .contact-right {
+            display: flex;
+            width: 561px;
+            padding: 63px 44px 100px 100px;
+            flex-direction: column;
+            align-items: flex-start;
+            height: 669px;
+            background: #ebf0f1;
+            gap: 28px;
+
+
+            .contact-from-heading {
+                p {
+                    color: var(--Secondary-Color-Base-Color, #E22329);
+                    font-family: "Public Sans";
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+
+                h5 {
+                    color: var(--Primary-Color-Base-Color, #023A51);
+                    font-family: "Public Sans";
+                    font-size: 32px;
+                    line-height: 44px;
+                }
+            }
+
+            .contact-from-right {
+                width: 100%;
+                display: grid;
+                gap: 20px;
+
+                input {
+                    padding: 12px 18px;
+                    font-family: "Public Sans";
+                    background: #F6F6F4;
+                    font-size: 16px;
+                    width: 100%;
+                    gap: 10px;
+                    align-self: stretch;
+                    border: none;
+                }
+
+                textarea:focus,
+                input:focus {
+                    outline: none;
+                }
+
+                textarea {
+                    background: #F6F6F4;
+                    height: 101px;
+                    padding: 12px 18px;
+                    align-items: flex-start;
+                    color: var(--Gray-Color-Base-Color, #59667D);
+                    font-family: "Public Sans";
+                    border: none;
+                    font-size: 16px;
+                }
+
+                textarea {
+                    resize: none;
+                }
+
+                .contact-from-chaackbox {
+                    .chackbox {
+                        width: 12px;
+                        height: 12px;
+                    }
+
+                    label {
+                        color: #ffffff;
+                        font-family: Poppins;
+                        font-size: 14px;
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+#contact-map {
+    margin-top: 222px;
+    position: relative;
+
+    .map-section {
+        background-color: #E3E6EE;
+        
+    }
+
+    .map-from {
+        position: absolute;
+        display: flex;
+        width: 478px;
+        padding: 26px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        height: 528px;
+        margin: auto;
+        flex-direction: column;
+        bottom: 208px;
+        right: 335px;
+        border: 1px solid #e3e6ee;
+        background: var(--Extra-Color-White, #FFF);
+
+        h2 {
+            color: #023A51;
+        }
+
+        p {
+            color: var(--Gray-Color-Base-Color, #59667D);
+            font-family: "Public Sans";
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        h4 {
+            color: var(--Primary-Color-Base-Color, #023A51);
+            font-family: "Public Sans";
+            font-size: 22px;
+            ;
+            line-height: 30px;
+        }
+
+        .map-from-date-time {
+            display: flex;
+            justify-content: space-between;
+            align-self: stretch;
+           
+
+        }
+    }
+}
